@@ -1,12 +1,12 @@
- // Veal_Julie  July 31, 2013  circumference
+ // Veal_Julie  July 31, 2013  stings
 
- //calculate the circumference of a circle
+ //calculate the stings per pound
 
-var total =  calcCircumference(60, 3) //the function
 
-function calcCircumference(d, pi){
-	var circumference = d * pi;
-	return circumference;
+function deadlyStings(weight, stings)
+{
+var weight = 45; //pounds
+var stings = 8.666666667;
 
+	return weight * stings;
 }
-console.log(total);
